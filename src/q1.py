@@ -21,11 +21,11 @@ def swap(x, y):
     return x, y
 
 # Task 2: Invoke the function with given scenarios
-# Scenario 1: "Apple", 10
+# Case 1: "Apple", 10
 result1 = swap("Apple", 10)
 print(result1)  # Expected output: -1 (non-numeric)
 
-# Scenario 2: 9, 17
+# Case 2: 9, 17
 result2 = swap(9, 17)
 print(result2)  # Expected output: Swapped values: x = 17, y = 9
                 # (and the tuple (17, 9) as return value)

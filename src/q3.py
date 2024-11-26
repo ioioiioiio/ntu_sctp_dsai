@@ -18,9 +18,9 @@ def update_dictionary(dct, key, value):
 # Task 2: Invoke the function with given scenarios
 # Case 1
 result1 = update_dictionary({}, "name", "Alice")
-print(result1)  # Expected output: {"name": "Alice"}
+print(result1)  # Result: {"name": "Alice"}
 
 # Case 2
 result2 = update_dictionary({"age": 25}, "age", 26)
-print(result2)  # Expected output: Key 'age' already exists with value: 25
+print(result2)  # Result: Key 'age' already exists with value: 25
                 # {"age": 26}

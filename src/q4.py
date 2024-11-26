@@ -15,8 +15,8 @@ def string_reverse(s):
 # Task 2: Invoke the function with given scenarios
 # Case 1
 result1 = string_reverse("Hello World")
-print(result1)  # Expected output: "dlroW olleH"
+print(result1)  # Result: "dlroW olleH"
 
 # Case 2
 result2 = string_reverse("Python")
-print(result2)  # Expected output: "nohtyP"
+print(result2)  # Result: "nohtyP"

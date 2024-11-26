@@ -20,8 +20,8 @@ def find_first_negative(lst):
 # Task 2: Invoke the function with given scenarios
 # Case 1
 result1 = find_first_negative([3, 5, -1, 7, -2, 8])
-print(result1)  # Expected output: -1 (first negative number)
+print(result1)  # Result: -1 (first negative number)
 
 # Case 2
 result2 = find_first_negative([2, 10, 7, 0])
-print(result2)  # Expected output: "No negatives" (no negative numbers in the list)
+print(result2)  # Result: "No negatives" (no negative numbers in the list)

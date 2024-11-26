@@ -18,8 +18,8 @@ def find_and_replace(lst, find_val, replace_val):
 # Task 2: Invoke the function with given scenarios
 # Case 1
 result1 = find_and_replace([1, 2, 3, 4, 2, 2], 2, 5)
-print(result1)  # Expected output: [1, 5, 3, 4, 5, 5]
+print(result1)  # Result: [1, 5, 3, 4, 5, 5]
 
 # Case 2
 result2 = find_and_replace(["apple", "banana", "apple"], "apple", "orange")
-print(result2)  # Expected output: ["orange", "banana", "orange"]
+print(result2)  # Result: ["orange", "banana", "orange"]

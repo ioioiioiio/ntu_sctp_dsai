@@ -15,8 +15,8 @@ def check_divisibility(num, divisor):
 # Task 2: Invoke the function with given scenarios
 # Case 1
 result1 = check_divisibility(10, 2)
-print(result1)  # Expected output: True (10 is divisible by 2)
+print(result1)  # Result: True (10 is divisible by 2)
 
 # Case 2
 result2 = check_divisibility(7, 3)
-print(result2)  # Expected output: False (7 is not divisible by 3)
+print(result2)  # Result: False (7 is not divisible by 3)
